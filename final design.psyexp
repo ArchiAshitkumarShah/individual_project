@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2023.1.3">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="final design" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <PolygonComponent name="fixation" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <ImageComponent name="image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$path" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1920, 1080)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.4" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.8" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'a','s'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.4" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\1', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\2', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\3', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\4', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\5', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\6', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\7', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\8', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\9', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\10', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\11', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\12', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\13', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\14', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\15', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\16', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\17', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\18', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\19', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\20', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\21', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\22', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\23', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\24', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\25', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\26', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\27', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\28', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\29', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\30', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\31', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\32', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\33', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\34', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\35', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\36', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\37', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\38', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\39', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\40', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\41', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\42', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\43', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\44', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\45', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\46', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\47', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\48', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\49', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\50', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\51', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\52', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\53', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\54', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\55', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\56', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\57', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\58', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\59', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\60', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\61', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\62', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\63', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\64', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\65', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\66', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\67', 'context': 'f', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\68', 'context': 'f', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\69', 'context': 'f', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\70', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\71', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\72', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\73', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\74', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\75', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\76', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\77', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\78', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\79', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\80', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\81', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\82', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\83', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\84', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\85', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\86', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\87', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\88', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\89', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\90', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\91', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\92', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\93', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\94', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\95', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\96', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\97', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\98', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\99', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\100', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\101', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\102', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\103', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\104', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\105', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\106', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\107', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\108', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\109', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\110', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\111', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\112', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\113', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\114', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\115', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\116', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\117', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\118', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\119', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\120', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\121', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\122', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\123', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\124', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\125', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\126', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\127', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\128', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\129', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\130', 'context': 'n', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\131', 'context': 'n', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\132', 'context': 'n', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\133', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\134', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\135', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\136', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\137', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\138', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\139', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\140', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\141', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\142', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\143', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\144', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\145', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\146', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\147', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\148', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\149', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\150', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\151', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\152', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\153', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\154', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\155', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\156', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\157', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\158', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\159', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\160', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\161', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\162', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\163', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\164', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\165', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\166', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\167', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\168', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\169', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\170', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\171', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\172', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\173', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\174', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\175', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\176', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\177', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\178', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\179', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\180', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\181', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\182', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\183', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\184', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\185', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\186', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\187', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\188', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\189', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\190', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\191', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\192', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\193', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\194', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\195', 'context': 'p', 'intensity': 'h'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\196', 'context': 'p', 'intensity': 'l'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\197', 'context': 'p', 'intensity': 'm'}, {'path': 'C:\\Users\\Shaha\\Desktop\\final pics\\198', 'context': 'p', 'intensity': 'h'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="C:/Users/Shaha/Desktop/uni/lab in psy/INDIVIDUAL ASSIGNMENT/cond.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
